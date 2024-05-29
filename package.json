@@ -1,0 +1,29 @@
+{
+  "name": "mod-installer",
+  "version": "1.0.0",
+  "description": "Electron app for Mod-Installer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isoextension/mod-installer-Minecraft/new/master"
+  },
+  "author": "isoextension",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron-builder": "^22.10.5"
+  },
+  "build": {
+    "appId": "com.example.mod-installer",
+    "productName": "Mod Installer",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "./favicon.ico"
+    }
+  }
+}
